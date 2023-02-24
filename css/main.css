@@ -156,6 +156,14 @@ hr {
     box-sizing: border-box;
 }
 
+.submit input {
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    color:  #1a6064 !important;
+    border: none;
+}
+
 .contact-form {
     display: flex;
     justify-content: center;
