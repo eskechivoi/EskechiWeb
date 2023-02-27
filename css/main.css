@@ -76,7 +76,7 @@ p {font-size: 1.2em;}
     color: #1a6064;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     .eye {
         display: none;
     }
