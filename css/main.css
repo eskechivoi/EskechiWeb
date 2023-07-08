@@ -69,6 +69,10 @@ p {font-size: 1.2em;}
     box-shadow: 3px 5px 5px;
 }
 
+.about p {
+    padding: 8px;
+}
+
 /**************************************/
 /************** ARTICLES **************/
 /**************************************/
@@ -124,8 +128,8 @@ p {font-size: 1.2em;}
 .socials {
     padding-top: 15px;
     display: flex;
-    align-items: center; 
     justify-content: center;
+    text-align: center;
 }
 
 #socials-min {display: none;}
