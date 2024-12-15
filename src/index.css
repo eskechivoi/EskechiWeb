@@ -103,6 +103,16 @@ p {font-size: 1.2em;}
   margin: 0 auto;
 }
 
+.horizontal-line {
+  border-top: 2px solid #1a6064;
+  width: 100%;
+  margin: 0;
+}
+
+.arrow {
+  width: 80%;
+  height: 80%;
+}
 
 /**************************************/
 /************** ARTICLES **************/
@@ -113,11 +123,17 @@ p {font-size: 1.2em;}
 
 @media screen and (max-width: 1500px) {
   .eye {
-      display: none;
+    display: none;
   }
 
   .pdf {
-      display: none;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .arrow {
+    display: none;
   }
 }
 

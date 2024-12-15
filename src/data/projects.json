@@ -1,0 +1,8 @@
+[
+    {
+        "category": "infrastructure",
+        "name": "Script to manager docker containers inside LXC containers",
+        "description": "This script abstracts the user from all the operations required to manage dockers inside LXC containers, and supports more than one docker container per LXC container.",
+        "link": "https://github.com/eskechivoi/lxc_and_docker"
+    }
+]

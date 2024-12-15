@@ -3,12 +3,12 @@
         "language": "ES",
         "category": "Criptografía",
         "text": "Qué es un algoritmo hash, como funciona, cuales son sus debilidades, y como podemos utilizarlos para comprobar la integridad de los archivos.", 
-        "pdfLink": "/eskechivoi.github.io/articles/Hashing.pdf" 
+        "pdfLink": "/articles/Hashing.pdf" 
     },
     { 
         "language": "ES",
         "category": "Forense",
         "text": "Detección del troyano Zeus en un sistema con la herramienta volatility, y rastreo de los atacantes.", 
-        "pdfLink": "/eskechivoi.github.io/articles/Zeus-WriteUp.pdf" 
+        "pdfLink": "/articles/Zeus-WriteUp.pdf" 
     }
 ] 
