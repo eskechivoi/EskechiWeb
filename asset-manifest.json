@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eskechivoi.github.io/static/css/main.e61b7747.css",
-    "main.js": "/eskechivoi.github.io/static/js/main.56543b1a.js",
+    "main.css": "/eskechivoi.github.io/static/css/main.9454ddde.css",
+    "main.js": "/eskechivoi.github.io/static/js/main.9d7341ac.js",
     "static/js/738.f109fcbc.chunk.js": "/eskechivoi.github.io/static/js/738.f109fcbc.chunk.js",
     "static/js/907.06976190.chunk.js": "/eskechivoi.github.io/static/js/907.06976190.chunk.js",
     "static/js/923.9a84cfcb.chunk.js": "/eskechivoi.github.io/static/js/923.9a84cfcb.chunk.js",
@@ -9,8 +9,8 @@
     "static/js/653.e84d2ed9.chunk.js": "/eskechivoi.github.io/static/js/653.e84d2ed9.chunk.js",
     "static/js/488.7a144633.chunk.js": "/eskechivoi.github.io/static/js/488.7a144633.chunk.js",
     "index.html": "/eskechivoi.github.io/index.html",
-    "main.e61b7747.css.map": "/eskechivoi.github.io/static/css/main.e61b7747.css.map",
-    "main.56543b1a.js.map": "/eskechivoi.github.io/static/js/main.56543b1a.js.map",
+    "main.9454ddde.css.map": "/eskechivoi.github.io/static/css/main.9454ddde.css.map",
+    "main.9d7341ac.js.map": "/eskechivoi.github.io/static/js/main.9d7341ac.js.map",
     "738.f109fcbc.chunk.js.map": "/eskechivoi.github.io/static/js/738.f109fcbc.chunk.js.map",
     "907.06976190.chunk.js.map": "/eskechivoi.github.io/static/js/907.06976190.chunk.js.map",
     "923.9a84cfcb.chunk.js.map": "/eskechivoi.github.io/static/js/923.9a84cfcb.chunk.js.map",
@@ -19,7 +19,7 @@
     "488.7a144633.chunk.js.map": "/eskechivoi.github.io/static/js/488.7a144633.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e61b7747.css",
-    "static/js/main.56543b1a.js"
+    "static/css/main.9454ddde.css",
+    "static/js/main.9d7341ac.js"
   ]
 }
