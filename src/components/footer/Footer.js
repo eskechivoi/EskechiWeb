@@ -18,7 +18,7 @@ const Footer = () => {
 						<a href="https://github.com/eskechivoi" className="footer-link"><ion-icon name="logo-github"></ion-icon></a>
 						<a href="https://app.hackthebox.com/profile/829472" className="footer-link"><ion-icon name="cube-outline"></ion-icon></a>
 					</ul>
-					<hr className="hr-socials"/>
+					{/*<hr className="hr-socials"/>*/}
 				</div>
 				<span style={{textAlign: 'center'}}><h1>ferrodrmar@gmail.com</h1></span>
 				<hr className="hr-socials"/>

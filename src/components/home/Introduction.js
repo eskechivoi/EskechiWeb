@@ -9,7 +9,7 @@ const Introduction = () => {
             </div>
             <div className="col-sm-1"></div>
                 <div className="col-md-3" style={{textAlign: 'center'}}>
-                <img className="responsive-image" src="/eskechivoi.github.io/images/foto_linkedin.jpg" alt="Profile picture" />
+                <img className="responsive-image" src="/images/foto_linkedin.jpg" alt="Profile picture" />
             </div>
         </div>
     );
