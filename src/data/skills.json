@@ -1,0 +1,26 @@
+[
+    {
+        "header": "Python Development",
+        "dots": [
+            "I developed a Python MQTT library for embedded systems and created a keyword library for automated testing with Robot Framework.",
+            "I developed load tests for REST APIs in Python, handling complex object models.",
+            "I have experience developing short Python scripts to create simulation files."
+        ]
+    },
+    {
+        "header": "Infrastructure",
+        "dots": [
+            "I have worked with Jenkins, integrating regression tests into a pipeline for continuous testing.",
+            "I am currently working in a Kubernetes environment with a microservices architecture.",
+            "I am currently studying for the AWS Certified SysOps Administrator – Associate certification."
+        ]
+    },
+    { 
+        "header": "Cybersecurity",
+        "dots": [ 
+            "I regularly attend cybersecurity congresses and conferences in Spain, most recently \"Navaja Negra\".",
+            "I have obtained a certification from TCM Security Academy, titled \"Practical Web Application Security and Testing\".",
+            "I actively participate in various challenges and machines on HTB!" ], 
+        "link": "https://app.hackthebox.com/profile/829472"
+    }
+]
