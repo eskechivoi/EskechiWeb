@@ -40,6 +40,12 @@ code {
   box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4);
 }
 
+@media (max-width: 600px) { 
+  .navigation { 
+    font-size: 3vw;
+  }
+}
+
 .navigation li {
   cursor: pointer;
   float: left;
