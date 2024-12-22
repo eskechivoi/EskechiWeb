@@ -8,7 +8,7 @@ const Skills = ({ skillsJson }) => {
                 <div className="row justify-content-center" style={{ marginTop: '50px' }} key={index}>
                     {index % 2 === 0 ? (
                         <>
-                        <Skill header={card.header} dots={card.dots} link={card.link} />
+                        <Skill header={card.header} dots={card.dots} links={card.links} />
                         <div className="col-sm-2 d-flex justify-content-center">
                             {index < 2 && <img src='/images/diagonal-arrow-right.png' className='arrow'/>}
                         </div>
@@ -20,7 +20,7 @@ const Skills = ({ skillsJson }) => {
                         <div className="col-sm-2 d-flex justify-content-center">
                             {index < 2 && <img src='/images/diagonal-arrow-left.png' className='arrow'/>}
                         </div>
-                        <Skill header={card.header} dots={card.dots} link={card.link} />
+                        <Skill header={card.header} dots={card.dots} links={card.links} />
                         </>
                     )}
                 </div>

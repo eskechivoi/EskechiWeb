@@ -11,7 +11,7 @@ const About = () => {
                     <h4>I am a Computer Science graduate from the University of Valladolid, with a passion for undertaking my own projects. 
                     I have a keen interest in DevSecOps, driven by my love for cybersecurity, coding, and infrastructure. </h4>
                 </div>
-                <div class="col-sm-2"></div>
+                <div className="col-sm-2"></div>
             </div>
         </>
     );

@@ -15,24 +15,35 @@
             "Work in a Kubernetes environment with a microservices architecture.",
             "Use of AWS CloudWatch to monitor microservices metrics.",
             "Worked in an automatic container deployment environment in Proxmox.",
+            "Part of the infrastructure team of the cybersecurity association SUGUS.",
             "Currently studying for the AWS Certified SysOps Administrator – Associate certification."
         ],
-        "link": {
-            "dot": 4,
-            "text": "Link to the environment",
-            "href": "https://sugusuva.es/ctfd/"
-        }
+        "links": [
+            {
+                "dot": 4,
+                "text": "Link to the environment",
+                "href": "https://sugusuva.es/ctfd/"
+            },
+            {
+                "dot": 5,
+                "text": "Visit sugusuva.es",
+                "href": "https://sugusuva.es"
+            }
+        ]
     },
     { 
         "header": "Cybersecurity",
         "dots": [ 
             "I regularly attend cybersecurity congresses and conferences in Spain, most recently \"Navaja Negra\".",
             "I have obtained a certification from TCM Security Academy, titled \"Practical Web Application Security and Testing\".",
-            "I actively participate in various challenges and machines on HTB!" ], 
-        "link": {
-            "dot": 3,
-            "text": "Visit my HackTheBox Profile!",
-            "href": "https://app.hackthebox.com/profile/829472"
-        }
+            "I actively participate in various challenges and machines on HTB!"
+        ], 
+        "links": [
+            {
+                "dot": 3,
+                "text": "Visit my HackTheBox Profile!",
+                "href": "https://app.hackthebox.com/profile/829472"
+            }
+        ]
     }
 ]
