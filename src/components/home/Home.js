@@ -11,14 +11,20 @@ import Projects from "./projects/Projects";
 
 const Home = () => {
     return (
-        <div id="home">
-            <Introduction />
-            <About />
-            <Skills skillsJson={skillsData}/>
-            <div style={{marginBottom: '50px'}}></div>
-            <Projects projectsJson={projectData}/>
-            <Articles articles={articleData}/>
-            <div style={{marginBottom: '50px'}}></div>
+        <div>
+            <section id="home">
+                <Introduction />
+                <About />
+            </section>
+            <section id="skills" style={{marginBottom: '50px'}}>
+                <Skills skillsJson={skillsData}/>
+            </section>
+            <section id="projects">
+                <Projects projectsJson={projectData}/>
+            </section>
+            <section id="articles" style={{marginBottom: '50px'}}>
+                <Articles articles={articleData}/>
+            </section>
         </div>
     );
 };

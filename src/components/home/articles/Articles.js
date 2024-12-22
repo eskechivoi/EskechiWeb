@@ -23,7 +23,7 @@ const Articles = ({ articles }) => {
 	}, []);
 
 	return (
-		<div id="articles">
+		<div>
 			<h1 style={{ marginTop: '50px', textAlign: 'center' }}>Articles</h1>
 			<hr className="hr-socials" />
 			<table className="table table-hover">

@@ -3,7 +3,7 @@ import Project from './Project';
 
 const Projects = ({ projectsJson }) => {
     return (
-        <div id='projects' style={{backgroundColor: '#aedfee', paddingTop: '10px', paddingBottom: '30px', paddingInline: '20px'}}>
+        <div style={{backgroundColor: '#aedfee', paddingTop: '10px', paddingBottom: '30px', paddingInline: '20px'}}>
             <h1 style={{marginTop: '50px', textAlign: 'center'}}>My projects</h1>
             <hr className="hr-socials"/>
             {projectsJson.map((project, index) => (

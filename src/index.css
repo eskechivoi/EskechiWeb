@@ -69,6 +69,13 @@ code {
   box-shadow: 3px 5px 5px;
 }
 
+.navigation li a.active {
+  background-color: #fff;
+  color: #63ccec;
+  border-radius: 25px;
+  box-shadow: 3px 5px 5px;
+}
+
 /**************************************/
 /**************** INDEX ***************/
 /**************************************/
