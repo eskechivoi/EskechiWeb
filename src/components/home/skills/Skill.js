@@ -7,14 +7,14 @@ const Skill = ({ header, dots, link }) => {
         <h3 style={{ textAlign: 'center' }}>{header}</h3>
         <ul>
           {dots.map((dot, index) => (
-            <li key={index} style={{textAlign: 'left'}}>{dot}</li>
+            <li key={index} style={{textAlign: 'left'}}>
+              {dot + " "} 
+              {link && link.dot === index+1 && (
+                  <a href={link.href} target="_blank" rel="noopener noreferrer">{link.text}</a>
+              )}
+            </li>
           ))}
         </ul>
-        {link && (
-            <a href={link} target="_blank" rel="noopener noreferrer">
-            Visit HackTheBox Profile
-            </a>
-        )}
       </div>
     </div>
   );
