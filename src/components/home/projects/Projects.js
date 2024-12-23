@@ -8,7 +8,13 @@ const Projects = ({ projectsJson }) => {
             <hr className="hr-socials"/>
             {projectsJson.map((project, index) => (
                 <div className="row justify-content-center" style={{ marginTop: '50px' }} key={index}>
-                    <Project category={project.category} name={project.name} description={project.description} link={project.link}/>
+                    <Project 
+                        category={project.category}
+                        name={project.name}
+                        description={project.description}
+                        link={project.link}
+                        graph={project.graph}
+                    />
                 </div>
             ))}
         </div>

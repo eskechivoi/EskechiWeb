@@ -2,7 +2,8 @@
     {
         "category": "infrastructure",
         "name": "Script to manager docker containers inside LXC containers",
-        "description": "This script abstracts the user from all the operations required to manage dockers inside LXC containers, and supports more than one docker container per LXC container.",
+        "description": "This script abstracts the user from all the operations required to manage dockers inside LXC containers, including installing and configuring docker. You can upload multiple .tar.gz files with a Dockerfile inside, and it will automatically build the docker images. Then you can define a compose file to deploy all these containers inside LXC, all in one line!",
+        "graph": "lxc_graph.md",
         "link": "https://github.com/eskechivoi/lxc_and_docker"
     }
 ]
