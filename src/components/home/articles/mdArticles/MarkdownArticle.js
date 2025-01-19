@@ -28,6 +28,8 @@ function MarkdownArticle({ articlePath }) {
           uri = url.pathname; 
           const baseUrl = `${window.location.protocol}//${window.location.host}`;
           const transformedUri = `${baseUrl}/${uri}`;
+          console.log(baseUrl)
+          console.log(transformedUri)
           return transformedUri;
         }}
       />
