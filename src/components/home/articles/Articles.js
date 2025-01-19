@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Article from './Article';
+import PdfArticleRow from './pdfArticles/PdfArticleRow';
+import MarkdownArticleRow from './mdArticles/MarkdownArticleRow';
 
 const Articles = ({ articles }) => {
 	const [visiblePdf, setVisiblePdf] = useState(null);
@@ -27,8 +28,10 @@ const Articles = ({ articles }) => {
 			<h1 style={{ marginTop: '50px', textAlign: 'center' }}>Articles</h1>
 			<hr className="hr-socials" />
 			<table className="table table-hover">
+			<tbody>
 				{articles.map((article, index) => (
-					<Article
+				article.pdfLink ? (
+					<PdfArticleRow
 						key={index}
 						language={article.language}
 						category={article.category}
@@ -39,7 +42,17 @@ const Articles = ({ articles }) => {
 						onClose={closePdf}
 						isVisible={visiblePdf === `pdf-${index}`}
 					/>
+				) : (
+					<MarkdownArticleRow
+						key={index}
+						language={article.language}
+						category={article.category}
+						text={article.text}
+						mdName={article.mdName}
+					/>
+				)
 				))}
+			</tbody>
 			</table>
 			{articles.map((article, index) => (
 				<iframe

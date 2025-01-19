@@ -1,5 +1,11 @@
 [ 
     { 
+        "language": "EN",
+        "category": "AWS | Cloud | SysOps",
+        "text": "Configure and use SSM to perform operations on a group of EC2 instances.", 
+        "mdName": "SSM_SysOps" 
+    },
+    { 
         "language": "ES",
         "category": "Criptografía",
         "text": "Qué es un algoritmo hash, como funciona, cuales son sus debilidades, y como podemos utilizarlos para comprobar la integridad de los archivos.", 
